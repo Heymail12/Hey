@@ -48,4 +48,4 @@ obj.data.permissions[0].associated_product = obj.data.products[0].id;
 
 
 body = JSON.stringify(obj);
-$done({body});
+$done({body}); 
