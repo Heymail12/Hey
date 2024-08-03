@@ -1,3 +1,14 @@
+http-response api.qonversion.io/v1/user/init script-path= https://raw.githubusercontent.com/Heymail12/Hey/main/temp%20mail%2010%20mail, requires-body=true, timeout=20, tag=mails
+
+
+
+[mitm]
+hostname = api.qonversion.io
+
+*/
+
+
+
 var obj = JSON.parse($response.body);
 
 obj.data.user_products = [
